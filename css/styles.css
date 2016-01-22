@@ -1,0 +1,44 @@
+#paddle {
+  position: absolute;
+  height: 20px;
+  width: 120px;
+  background-color: black;
+  border-radius: 30px; }
+
+#ball {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: blue; }
+
+.block-container {
+  display: flex;
+  justify-content: center; }
+
+#vertical-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 50vw; }
+
+.block-test {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  border: 2px solid white; }
+
+.zero {
+  background: linear-gradient(to top left, #009958, #08e346);
+  background: -o-linear-gradient(to top left, #009958, #08e346);
+  background: -moz-linear-gradient(to top left, #009958, #08e346); }
+
+.one {
+  background: linear-gradient(to top left, #c2bc2b, #fff13d);
+  background: -o-linear-gradient(to top left, #c2bc2b, #fff13d);
+  background: -moz-linear-gradient(to top left, #c2bc2b, #fff13d); }
+
+.two {
+  background: linear-gradient(to top left, #a62c1d, #ff2b15);
+  background: -o-linear-gradient(to top left, #a62c1d, #ff2b15);
+  background: -moz-linear-gradient(to top left, #a62c1d, #ff2b15); }
